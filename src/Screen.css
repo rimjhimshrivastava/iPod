@@ -2,7 +2,6 @@
 .screen{
     height: 15rem;
     width: 18rem;
-    border: 1px solid grey;
     font-family: 'Lato', sans-serif;
     background-image: url(./images/peakpx11.jpg);
     background-size: cover;
