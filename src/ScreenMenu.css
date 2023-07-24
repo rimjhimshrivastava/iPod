@@ -1,0 +1,14 @@
+
+.screen-menu{
+    width: 50%;
+    backdrop-filter: blur(10px);
+}
+
+.screen-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.screen-menu ul li{
+    padding: 0.5rem 1rem;
+}

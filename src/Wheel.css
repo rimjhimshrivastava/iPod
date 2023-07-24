@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+.wheel{
+    border: none;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    background-color: rgb(255, 170, 248);
+    font-family: 'Lato', sans-serif;
+    margin-top: 2rem;
+}
+.wheel:hover{
+    cursor: arrow;
+}
+
+.select-button{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5rem;
+    left: 3.5rem;
+    background-color: aliceblue;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 99, 242);
+}
+.menu-button{
+    position: absolute;
+    color: white;
+    top: 1.25rem;
+    left: 4.5rem;
+}
+.play-pause{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 8.5rem;
+    left: 4.5rem;
+}
+.fast-forward{
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 4.5rem;
+    left: 9rem;
+}
+.fast-rewind{
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 4.5rem;
+    left: 0.5rem;
+}
