@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .screen{
-    height: 15rem;
-    width: 18rem;
+    height: 22rem;
+    width: 23rem;
     font-family: 'Lato', sans-serif;
-    background-image: url(./images/peakpx11.jpg);
+    background-image: url(./images/background.jpg);
     background-size: cover;
     color: white;
     position: relative;
+    font-size: 1.3rem;
+    border-radius: 5%;
 }
 .header{
     width: 100%;

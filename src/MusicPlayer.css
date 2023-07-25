@@ -1,0 +1,9 @@
+audio{
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(234, 0, 226);
+    border: none;
+}

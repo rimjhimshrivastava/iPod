@@ -1,56 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 .wheel{
     border: none;
-    height: 12rem;
-    width: 12rem;
+    height: 15rem;
+    width: 15rem;
     border-radius: 50%;
     text-align: center;
     position: relative;
     background-color: rgb(255, 170, 248);
     font-family: 'Lato', sans-serif;
     margin-top: 2rem;
+    user-select: none;
 }
 .wheel:hover{
     cursor: arrow;
 }
 
 .select-button{
-    height: 5rem;
-    width: 5rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     position: absolute;
-    top: 3.5rem;
-    left: 3.5rem;
+    top: 4rem;
+    left: 4rem;
     background-color: aliceblue;
     border: none;
     font-family: 'Lato', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(255, 99, 242);
 }
 .menu-button{
     position: absolute;
     color: white;
-    top: 1.25rem;
-    left: 4.5rem;
+    top: 1.8rem;
+    left: 5.5rem;
+    font-size: 1.3rem;
 }
 .play-pause{
     color: white;
     font-size: 3rem;
     position: absolute;
-    top: 8.5rem;
-    left: 4.5rem;
+    top: 11rem;
+    left: 6rem;
 }
 .fast-forward{
     color: white;
     font-size: 2.5rem;
     position: absolute;
-    top: 4.5rem;
-    left: 9rem;
+    top: 6.3rem;
+    left: 12rem;
 }
 .fast-rewind{
     color: white;
     font-size: 2.5rem;
     position: absolute;
-    top: 4.5rem;
+    top:6.3rem;
     left: 0.5rem;
 }
