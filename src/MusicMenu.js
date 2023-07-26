@@ -1,5 +1,6 @@
 import "./ScreenMenu.css";
 
+//list of songs
 const MusicMenu = () => {
   return (
     <div className="screen-menu">

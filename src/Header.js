@@ -1,3 +1,4 @@
+//header for the screen to display ipod and battery
 function Header() {
   return (
     <div className="header">

@@ -4,6 +4,6 @@ audio{
     left: 2rem;
 }
 audio::-webkit-media-controls-panel{
-    background-color: rgb(234, 0, 226);
+    background-image: linear-gradient(rgb(234, 0, 226) ,rgb(175, 0, 169) 30%, rgb(74, 0, 72) 80%);
     border: none;
 }

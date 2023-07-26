@@ -5,7 +5,9 @@ import MusicMenu from './MusicMenu';
 import MusicPlayer from './MusicPlayer';
 import Default from './Default';
 
+//screen of the ipod
 function Screen(props){
+    //display a screen when the screen value is matched
     return(
         <div className="screen">
             < Header />

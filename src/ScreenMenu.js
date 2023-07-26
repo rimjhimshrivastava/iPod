@@ -1,4 +1,6 @@
 import "./ScreenMenu.css";
+
+// list of items in screen menu
 const ScreenMenu = () => {
   return (
     <div className="screen-menu">

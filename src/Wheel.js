@@ -4,14 +4,17 @@ import ZingTouch from "zingtouch";
 
 class Wheel extends React.Component {
   
+  //when wheel is mounted activate the rotate event
   componentDidMount() {
     const wheel = document.getElementById("wheel");
     const region = new ZingTouch.Region(wheel);
     region.bind(wheel, "rotate", (e) => {
       if(e.detail.distanceFromLast>2){
+        //when clockwise rotation move the active status to the next menu element
         this.props.increaseActive();
       }
       else if(e.detail.distanceFromLast<-2){
+        //when anti clockwise rotation move the active status to the previous menu element
         this.props.decreaseActive();
       }
     });
