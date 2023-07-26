@@ -15,3 +15,8 @@ Technology used:
 - React Js application
 - ZingTouch
 - npm
+- JSX
+- HTML5
+- CSS3
+- JavaScript
+- Babel
